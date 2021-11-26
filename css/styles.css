@@ -1,0 +1,243 @@
+:root {
+    --white: #fff;
+    --black: #000;
+}
+
+.grafBlock {
+    width: 60%;
+    margin: 3em 20%;
+}
+
+.grafBlock p {
+    font-size: 1.15rem;
+    margin: 1.5em 0;
+    line-height: 2rem;
+}
+
+.block1 img {
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: serif;
+    font-weight: 700;
+}
+
+.parallax {
+    /* Set a specific height */
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h4 {
+    width: 40%;
+    margin: 2em;
+    font-size: 3.5rem;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.grafBlock.blockCol {
+    display: flex;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.colLeft {
+    width: 50%;
+    margin: 10% 0;
+}
+
+.colRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery,
+#gallerySingle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+#gallery img,
+#gallerySingle img {
+    height: auto;
+    object-fit: cover;
+    margin: 0.15em;
+}
+
+img.tile1 {
+    width: 40%;
+}
+
+img.tile2 {
+    width: 50%;
+}
+
+img.tile3,
+img.tile4 {
+    width: 45%;
+}
+
+img.tile5 {
+    width: 91%;
+}
+
+.pq {
+    display: flex;
+    flex-direction: column;
+    border-top: solid #e0e0e0 0.5em;
+    border-bottom: solid #e0e0e0 0.5em;
+    width: 88%;
+    margin: 2em 0;
+    margin-left: 1em;
+}
+
+blockquote {
+    margin: 1.5em 0 1em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.8rem;
+    font-family: serif;
+    color: #618db6;
+}
+
+.pq cite {
+    margin: 0 0 3em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.juxBlock {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.columns3 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgCol {
+    width: 33%;
+    margin: 0 0.2em 0 0;
+}
+
+.imgCol p {
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0.5em 0;
+    color: #8d8d8d;
+    font-weight: 100;
+}
+
+.columns3 img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+
+.tileSingle{
+    width: 90%;
+}
+
+#gallerySingle p {
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0.5em 0;
+    color: #8d8d8d;
+    font-weight: 100;
+    line-height: 1.25rem;
+    width: 90%;
+}
+
+.block4 {
+    margin: em 0;
+}
+
+.captionCol {
+    width: 33%;
+    margin: 0 0.2em 0 0;
+}
+
+.captionCol p {
+    text-align: center;
+    margin: 2em 0;
+    font-weight: 700;
+}
+
+.captions {
+    flex-wrap: wrap;
+    margin-bottom: 6em;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .grafBlock {
+        width: 80%;
+        margin: 3em 10%;
+    }
+
+    .parallax h4 {
+        font-size: 2.2rem;
+    }
+    
+    .grafBlock.blockCol {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .colLeft {
+        width: 80%;
+        margin: 3em 10%;
+    }
+    
+    .colRight {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    iframe {
+        height: 430px;
+    }
+
+    .columns3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgCol {
+        width: 90%;
+    }
+
+    .imgCol p {
+        margin-bottom: 3em;
+    }
+
+    .captionCol {
+        margin: 0;
+    }
+    
+    .captionCol p {
+        margin: 0.5em 0;
+    }
+}
