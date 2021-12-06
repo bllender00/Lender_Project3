@@ -47,22 +47,20 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h6 {
     font-family: var(--serif);
     font-weight: 700;
 }
 
 h1 {
     margin-bottom: 0.5em;
-}
-
-h5 {
-    font-weight: 500;
-    font-size: 1.25rem;
-}
-
-h1 {
     font-size: 3rem;
+}
+
+h6,
+h6 a {
+    color: #757575;
+    font-size: 1.1rem;
 }
 
 .parallax {
@@ -223,7 +221,7 @@ blockquote {
 }
 
 .block4 {
-    margin: em 0;
+    margin: 1em 0;
 }
 
 .captionCol {
